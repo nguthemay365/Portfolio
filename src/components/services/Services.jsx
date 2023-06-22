@@ -51,6 +51,10 @@ const Services = () => {
               <BsCheckAll className="service__list-icon" />
               <p>Terminal</p>
             </li>
+            <li>
+              <BsCheckAll className="service__list-icon" />
+              <p>Github</p>
+            </li>
           </ul>
         </article>
 
@@ -67,6 +71,14 @@ const Services = () => {
             <li>
               <BsCheckAll className="service__list-icon" />
               <p>Kinh nghiệm tự đúc kết</p>
+            </li>
+            <li>
+              <BsCheckAll className="service__list-icon" />
+              <p>Các dự án tự thực hiện</p>
+            </li>
+            <li>
+              <BsCheckAll className="service__list-icon" />
+              <p>Các dự án tự thực hiện</p>
             </li>
           </ul>
         </article>
