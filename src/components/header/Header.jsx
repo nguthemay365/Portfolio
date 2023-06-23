@@ -3,8 +3,10 @@ import './header.css'
 import CTA from './CTA.jsx'
 import ME from '../../assets/me.png'
 import HeaderSocial from './HeaderSocials'
+import { useState } from "react";
 
 const Header = () => {
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <header>
       <div className="container header__container">
@@ -19,6 +21,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll__down">Scroll Down</a>
+
       </div>
     </header>
   )

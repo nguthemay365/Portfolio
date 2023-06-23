@@ -1,7 +1,3 @@
-#portfolio h5 {
-    color: white;
-}
-
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -42,7 +38,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
-
 
 }
 
